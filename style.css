@@ -1,0 +1,24 @@
+:root {
+    --negro: #252525;
+    --amarillo: #FFA400;
+    --rojo-cherry: #FC2933;
+    --blanco: #FFFFFF;
+
+}
+
+header {
+    background-color: var(--negro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px;
+    position: sticky;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

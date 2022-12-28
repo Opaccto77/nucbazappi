@@ -1,0 +1,137 @@
+ /* boton */
+ button{
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+  box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
+  border-radius: 15px;
+  border: #131415 1px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+
+/* body */
+body{
+  background: #131415;
+  font-family: 'Montserrat', sans-serif;
+  color:#FFFFFF;
+}
+
+h4{
+  padding: 0px 100px;
+ }
+
+ 
+{
+  display: none;
+ }
+ .menu-label{
+  display: flex;
+  order: 2;
+  cursor: pointer;
+ }
+ #menu-toggle:checked + .cart
+ {
+  display: flex;
+ }
+ /* main */
+main{
+  padding: 0px 100px;
+}
+.lista{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+ul{
+  list-style: none;
+}
+ 
+
+ /*parrafo estilo*/ 
+p{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 10px;
+line-height: 17px;
+letter-spacing: 0.5px;
+font-weight: 400;
+color: #ffeaea;
+opacity: 0.3;
+}
+
+
+
+
+ /* categorias */
+ .cajaCategorias{
+  display: flex;
+  flex-direction: row; 
+  gap: 15px;
+  justify-content:space-around ;
+  padding: 0px 60px;
+ }
+ .cajitaCategoria{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 171px;
+  background: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+  gap: 5px;
+  font-family: 'Montserrat', sans-serif;
+ }
+ .cajitaCategoria button{
+  width: 24px;
+  height: 4px ;
+ }
+ .cajitaCategoria img{
+  width: 85px;
+  height: 85px;
+ }
+
+ /* populares */
+  .cajaPopulares{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    justify-content:center ;
+    padding: 10px 80px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin: 0px 140px;
+   }
+   .cajitaPopulares{
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    height: 213px;
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+    gap: 5px;
+    font-family: 'Montserrat', sans-serif;
+   }
+   .cajitaPopulares img{
+    margin: 10px 20px;
+   }
+   .cajitaPopulares p{
+    margin-top: 1px;
+    padding-left: 10px;
+   }
+   .cajitaPopulares button{
+    width: 85px;
+    height: 29px;
+   }
+   .pap{
+    margin-top: 1px;
+    padding-left: 10px;
+   }
+   .pop{
+    display: flex;
+    justify-content: space-around;
+    gap: 110px;
+   }
